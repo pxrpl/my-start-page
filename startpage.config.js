@@ -101,14 +101,14 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Portfolio",
-						url: "https://cancellek.com",
-						icon: "mdi:web"
+						name: "Gmail",
+						url: "https://mail.google.com",
+						icon: "mdi:mail"
 					},
 					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						icon: "fa-brands:keybase"
+						name: "Dropbox",
+						url: "https://dropbox.com/",
+						icon: "fa-brands:dropbox"
 					},
 					{
 						name: "GPT",
@@ -116,9 +116,9 @@ const defaultConfig = {
 						icon: "simple-icons:openai"
 					},
 					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
-						icon: "simple-icons:oracle"
+						name: "AUR",
+						url: "https://aur.archlinux.org",
+						icon: "mdi:arch"
 					}
 				]
 			},
@@ -133,19 +133,19 @@ const defaultConfig = {
 						icon: "mdi:github"
 					},
 					{
-						name: "GitLab",
-						url: "https://gitlab.com",
-						icon: "ph:gitlab-logo-simple-fill"
+						name: "Vercel",
+						url: "https://vercel.com",
+						icon: "mdi:web-check"
 					},
 					{
-						name: "Dev.to",
-						url: "https://dev.to",
-						icon: "material-symbols:logo-dev"
+						name: "...",
+						url: "https://",
+						icon: "mdi:help"
 					},
 					{
-						name: "Stack Overflow",
-						url: "https://stackoverflow.com/",
-						icon: "mdi:stack-overflow"
+						name: "...",
+						url: "https://",
+						icon: "mdi:help"
 					}
 				]
 			},
