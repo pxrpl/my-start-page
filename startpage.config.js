@@ -103,12 +103,12 @@ const defaultConfig = {
 					{
 						name: "Gmail",
 						url: "https://mail.google.com",
-						icon: "mdi:mail"
+						icon: "mdi:gmail"
 					},
 					{
 						name: "Dropbox",
 						url: "https://dropbox.com/",
-						icon: "fa-brands:dropbox"
+						icon: "mdi:dropbox"
 					},
 					{
 						name: "GPT",
@@ -160,9 +160,9 @@ const defaultConfig = {
 						icon: "mdi:twitter"
 					},
 					{
-						name: "Mastodon",
-						url: "https://mastodon.social/",
-						icon: "ri:mastodon-fill"
+						name: "Youtube",
+						url: "https://youtube.com/",
+						icon: "mdi:youtube"
 					},
 					{
 						name: "Reddit",
@@ -170,9 +170,9 @@ const defaultConfig = {
 						icon: "mdi:reddit"
 					},
 					{
-						name: "Polywork",
-						url: "https://polywork.com",
-						icon: "simple-icons:polywork"
+						name: "Twitch",
+						url: "https://twitch.tv",
+						icon: "mdi:twitch"
 					}
 				]
 			},
@@ -182,46 +182,46 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						name: "Minecraft",
+						url: "https://minecraft.net",
+						icon: "mdi:minecraft"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
+						name: "Snake",
+						url: "https://g.co/kgs/JhtnCA",
+						icon: "mdi:snake"
 					},
 					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
+						name: "...",
+						url: "https://",
+						icon: "mdi:help"
 					},
 					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
+						name: "...",
+						url: "https://",
+						icon: "mdi:help"
 					}
 				]
 			},
 			{
-				title: "Science",
+				title: "Utilities",
 				color: "blue",
 				align: "left",
 				links: [
 					{
-						name: "PopSci",
+						name: "Postimages",
 						url: "https://popsci.com/",
-						icon: "material-symbols:science"
+						icon: "mdi:image-multiple-outline"
 					},
 					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
-						icon: "mdi:reddit"
+						name: "bit.ly",
+						url: "https://bit.ly",
+						icon: "mdi:link-variant"
 					},
 					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
-						icon: "simple-icons:nasa"
+						name: "GGServers",
+						url: "https://ggservers.com",
+						icon: "mdi:server-security"
 					},
 					{
 						name: "ESA",
@@ -230,7 +230,8 @@ const defaultConfig = {
 					}
 				]
 			},
-			{
+			/*
+	 {
 				title: "Tech",
 				color: "yellow",
 				align: "left",
@@ -256,7 +257,7 @@ const defaultConfig = {
 						icon: "uil:linux"
 					}
 				]
-			}
+			}  */
 		]
 	}
 }
