@@ -31,9 +31,9 @@ const defaultConfig = {
 		ctrlC: true,
 		placeholder: "cmd...",
 		placeholderColor: "gray",
-		userColor: "red",
+		userColor: "white",
 		atColor: "gray",
-		hostColor: "magenta",
+		hostColor: "blue",
 		promptColor: "magenta",
 		promptSymbol: "❯",
 		caretColor: "green",
@@ -72,11 +72,6 @@ const defaultConfig = {
 				url: "https://google.com/search?q={}"
 			},
 			{
-				alias: "d",
-				name: "DuckDuckGo Search",
-				url: "https://duckduckgo.com/?q={}"
-			},
-			{
 				alias: "gh",
 				name: "Github Search",
 				url: "https://github.com/search?q={}"
@@ -101,7 +96,7 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Gmail",
+						name: "GMail",
 						url: "https://mail.google.com",
 						icon: "mdi:gmail"
 					},
@@ -117,7 +112,7 @@ const defaultConfig = {
 					},
 					{
 						name: "AUR",
-						url: "https://aur.archlinux.org",
+						url: "https://aur.archlinux.org/",
 						icon: "mdi:arch"
 					}
 				]
@@ -138,7 +133,7 @@ const defaultConfig = {
 						icon: "mdi:web-check"
 					},
 					{
-						name: "...",
+					        name: "...",
 						url: "https://",
 						icon: "mdi:help"
 					},
@@ -160,7 +155,7 @@ const defaultConfig = {
 						icon: "mdi:twitter"
 					},
 					{
-						name: "Youtube",
+						name: "YouTube",
 						url: "https://youtube.com/",
 						icon: "mdi:youtube"
 					},
@@ -224,42 +219,39 @@ const defaultConfig = {
 						icon: "mdi:server-security"
 					},
 					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						icon: "mdi:black-mesa"
+						name: "...",
+						url: "https://",
+						icon: "mdi:help"
 					}
 				]
 			},
-			/*
-{
-    title: "Tech",
-    color: "yellow",
-    align: "left",
-    links: [
-        {
-            name: "TechCrunch",
-            url: "https://techcrunch.com/",
-            icon: "game-icons:techno-heart"
-        },
-        {
-            name: "Verge",
-            url: "https://www.theverge.com/",
-            icon: "arcticons:verge"
-        },
-        {
-            name: "It's Foss",
-            url: "https://itsfoss.com/",
-            icon: "ri:mastodon-fill"
-        },
-        {
-            name: "9To5 Linux",
-            url: "https://9to5linux.com/",
-            icon: "uil:linux"
-        }
-    ]
-}  
-*/
-
+			{
+				title: "Tech",
+				color: "yellow",
+				align: "left",
+				links: [
+					{
+						name: "TechCrunch",
+						url: "https://techcrunch.com/",
+						icon: "game-icons:techno-heart"
+					},
+					{
+						name: "Verge",
+						url: "https://www.theverge.com/",
+						icon: "arcticons:verge"
+					},
+					{
+						name: "It's Foss",
+						url: "https://itsfoss.com/",
+						icon: "ri:mastodon-fill"
+					},
+					{
+						name: "9To5 Linux",
+						url: "https://9to5linux.com/",
+						icon: "uil:linux"
+				  }
+				]
+			}
 		]
 	}
 }
