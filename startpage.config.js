@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "vic",
 	theme: {
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
@@ -29,9 +29,9 @@ const defaultConfig = {
 	},
 	prompt: {
 		ctrlC: true,
-		placeholder: "command...",
+		placeholder: "cmd...",
 		placeholderColor: "gray",
-		userColor: "green",
+		userColor: "red",
 		atColor: "gray",
 		hostColor: "magenta",
 		promptColor: "magenta",
@@ -77,19 +77,9 @@ const defaultConfig = {
 				url: "https://duckduckgo.com/?q={}"
 			},
 			{
-				alias: "b",
-				name: "Brave Search",
-				url: "https://search.brave.com/search?q={}"
-			},
-			{
 				alias: "gh",
 				name: "Github Search",
 				url: "https://github.com/search?q={}"
-			},
-			{
-				alias: "s",
-				name: "Stack Overflow Search",
-				url: "https://stackoverflow.com/search?q={}"
 			},
 			{
 				alias: "r",
