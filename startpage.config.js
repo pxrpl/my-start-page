@@ -231,33 +231,35 @@ const defaultConfig = {
 				]
 			},
 			/*
-	 {
-				title: "Tech",
-				color: "yellow",
-				align: "left",
-				links: [
-					{
-						name: "TechCrunch",
-						url: "https://techcrunch.com/",
-						icon: "game-icons:techno-heart"
-					},
-					{
-						name: "Verge",
-						url: "https://www.theverge.com/",
-						icon: "arcticons:verge"
-					},
-					{
-						name: "It's Foss",
-						url: "https://itsfoss.com/",
-						icon: "ri:mastodon-fill"
-					},
-					{
-						name: "9To5 Linux",
-						url: "https://9to5linux.com/",
-						icon: "uil:linux"
-					}
-				]
-			}  */
+{
+    title: "Tech",
+    color: "yellow",
+    align: "left",
+    links: [
+        {
+            name: "TechCrunch",
+            url: "https://techcrunch.com/",
+            icon: "game-icons:techno-heart"
+        },
+        {
+            name: "Verge",
+            url: "https://www.theverge.com/",
+            icon: "arcticons:verge"
+        },
+        {
+            name: "It's Foss",
+            url: "https://itsfoss.com/",
+            icon: "ri:mastodon-fill"
+        },
+        {
+            name: "9To5 Linux",
+            url: "https://9to5linux.com/",
+            icon: "uil:linux"
+        }
+    ]
+}  
+*/
+
 		]
 	}
 }
